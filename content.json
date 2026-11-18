@@ -1,0 +1,198 @@
+{
+  "site": {
+    "hero_title": {
+      "tr": "Merhaba, ben İsmail Hakkı Öngen.",
+      "en": "Hi, I’m İsmail Hakkı Öngen."
+    },
+    "hero_k": {
+      "tr": "Yazılım Geliştirici & Dijital İçerik Üreticisi.",
+      "en": "Software Developer & Digital Creator."
+    },
+    "hero_d": {
+      "tr": "Web teknolojileri, masaüstü uygulamaları, UI/UX tasarımı ve iş akışı otomasyonları üzerine çalışıyorum.",
+      "en": "Focusing on web technologies, desktop applications, UI/UX design, and workflow automation."
+    },
+    "about_sum": {
+      "tr": "Akdeniz Üniversitesi Bilgisayar Programcılığı 2. sınıf öğrencisiyim. C# ve ASP.NET Core MVC ile web mimarileri kuruyor, diğer yandan Adobe ekosistemiyle görsel tasarım, video kurgu ve animasyon projeleri üretiyorum.",
+      "en": "I am a 2nd-year Computer Programming student at Akdeniz University. I build web architectures using C# and ASP.NET Core MVC, while creating visual design, video editing, and animation projects with the Adobe ecosystem."
+    },
+    "addr": {
+      "tr": "Konyaaltı, Antalya / Türkiye (Akdeniz Üniversitesi Kampüsü)",
+      "en": "Konyaaltı, Antalya / Turkey (Akdeniz University Campus)"
+    },
+    "phone": {
+      "tr": "+90 (5XX) XXX XX XX",
+      "en": "+90 (5XX) XXX XX XX"
+    },
+    "email": {
+      "tr": "ismailhakki@ornekmail.com",
+      "en": "ismailhakki@ornekmail.com"
+    }
+  },
+  "projects": [
+    {
+      "id": "p0",
+      "image": "img/proje-animasyon.jpg",
+      "featured": true,
+      "tr": {
+        "title": "Kişisel Portfolyo Web Animasyonu (Grafik Animasyon Dersi)",
+        "desc": "Grafik Animasyon dersi kapsamında Adobe Animate kullanılarak hazırlanan, vektörel çizimler ve kare kare (frame-by-frame) geçişlerle zenginleştirilmiş etkileşimli tanıtım animasyonu."
+      },
+      "en": {
+        "title": "Personal Portfolio Web Animation (Graphic Animation Course)",
+        "desc": "An interactive promotional animation enriched with vector illustrations and frame-by-frame transitions, created using Adobe Animate for the Graphic Animation course."
+      }
+    },
+    {
+      "id": "p1",
+      "image": "img/proje-n8n.jpg",
+      "featured": false,
+      "tr": {
+        "title": "n8n İş Akışı Otomasyonu ve Video Sunumu (Web Editörlüğü / Multimedya)",
+        "desc": "Tekrarlayan dijital görevleri otomatikleştiren n8n tabanlı sistem mimarisi araştırması ve Adobe Premiere Pro ile kurgulanan teknik video sunumu."
+      },
+      "en": {
+        "title": "n8n Workflow Automation and Video Presentation (Web Editing / Multimedia)",
+        "desc": "Research on n8n-based system architecture automating repetitive digital tasks, accompanied by a technical video presentation edited in Adobe Premiere Pro."
+      }
+    },
+    {
+      "id": "p2",
+      "image": "img/proje-phd.jpg",
+      "featured": true,
+      "tr": {
+        "title": "PHD Teknoloji: Çok Dilli Sağlık Turizmi Platformu (İYS Dersi)",
+        "desc": "Uluslararası hastalar için Ağız ve Diş Sağlığı alanında WordPress ve Polylang altyapısıyla geliştirilen, Türkçe ve İngilizce yayın yapan kurumsal web sitesi."
+      },
+      "en": {
+        "title": "PHD Technology: Multilingual Health Tourism Platform (IYS Course)",
+        "desc": "A bilingual (Turkish/English) corporate website developed with WordPress and Polylang infrastructure in the field of Oral and Dental Health for international patients."
+      }
+    },
+    {
+      "id": "p3",
+      "image": "img/proje-hastane.jpg",
+      "featured": true,
+      "tr": {
+        "title": "Hastane İçi Yönlendirme Projesi (Sistem Mimarisi & Web)",
+        "desc": "Büyük hastanelerde ziyaretçilerin aradıkları poliklinik ve birimlere en kısa yoldan ulaşmasını sağlayan kullanıcı akış (user flow) ve sistem mimarisi tasarımı."
+      },
+      "en": {
+        "title": "Hospital Indoor Navigation Project (System Architecture & Web)",
+        "desc": "User flow routing and system architecture design enabling visitors in large hospitals to reach clinics and departments via the shortest path."
+      }
+    },
+    {
+      "id": "p4",
+      "image": "img/proje-aspnet.jpg",
+      "featured": false,
+      "tr": {
+        "title": "ASP.NET Core MVC Web Uygulamaları (Web Programlama Dersi)",
+        "desc": "Visual Studio 2022 ortamında C# ve SQL Server kullanılarak geliştirilen, dinamik veritabanı bağlantılı ve katmanlı mimariye sahip web projeleri."
+      },
+      "en": {
+        "title": "ASP.NET Core MVC Web Applications (Web Programming Course)",
+        "desc": "Web projects featuring dynamic database integration and layered architecture, developed using C# and SQL Server in Visual Studio 2022."
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g0",
+      "image": "uploads/1795010668010-sp1.jpg",
+      "tr": {
+        "cap": "Akdeniz Üniversitesi kampüsünde proje geliştirme ve kodlama seansı."
+      },
+      "en": {
+        "cap": "Project development and coding session at Akdeniz University campus."
+      }
+    },
+    {
+      "id": "g1",
+      "image": "uploads/1795010803402-gemini-generated-image-q7r9cxq7r9cxq7r9.jpg",
+      "tr": {
+        "cap": "Antrenman rutini; fiziksel disiplin zihinsel odaklanmayı doğrudan besliyor."
+      },
+      "en": {
+        "cap": "Training routine; physical discipline directly fuels mental focus."
+      }
+    },
+    {
+      "id": "g2",
+      "image": "img/galeri-3.jpg",
+      "tr": {
+        "cap": "Yazılım, kurgu ve tasarım süreçlerini yürüttüğüm çalışma istasyonum."
+      },
+      "en": {
+        "cap": "My workstation where I run software development, editing, and design workflows."
+      }
+    },
+    {
+      "id": "g3",
+      "image": "img/galeri-4.jpg",
+      "tr": {
+        "cap": "Yoğun vize ve proje temposundan fırsat buldukça Antalya’da dinlenme molası."
+      },
+      "en": {
+        "cap": "Taking a break in Antalya amidst a busy midterm and project schedule."
+      }
+    },
+    {
+      "id": "g4",
+      "image": "img/galeri-5.jpg",
+      "tr": {
+        "cap": "Boş zamanlarda beat ve vokal demoları üzerinde çalıştığım kayıt anlarından."
+      },
+      "en": {
+        "cap": "Recording moments working on beats and vocal demos in my spare time."
+      }
+    }
+  ],
+  "posts": [
+    {
+      "id": "b0",
+      "tr": {
+        "title": "Adobe Premiere Pro’da Multicam (Çoklu Kamera) Kurgu Teknikleri",
+        "body": "Birden fazla kamerayla çekilen sahneleri tek bir zaman çizelgesinde (timeline) senkronize etmek, kurgu hızını ikiye katlar. Premiere Pro’da klipleri seçip “Create Multi-Camera Source Sequence” dedikten sonra ses dalgalarına (Audio) göre otomatik eşleştirme yapabilirsiniz. Program monitörünü “Multi-Camera” moduna aldığınızda, videoyu izlerken sadece klavyedeki 1, 2, 3 tuşlarına basarak canlı yayın yönetmeni gibi kamera açıları arasında anlık geçiş yapabilirsiniz.",
+        "cats": "Videografi, Animasyon",
+        "tags": "Adobe, Premiere Pro, video kurgu, multicam, post-prodüksiyon"
+      },
+      "en": {
+        "title": "Multicam Editing Techniques in Adobe Premiere Pro",
+        "body": "Synchronizing scenes shot with multiple cameras on a single timeline doubles your editing speed. In Premiere Pro, after selecting clips and clicking “Create Multi-Camera Source Sequence,” you can automatically sync them via audio waveforms. By switching the Program Monitor to “Multi-Camera” mode, you can switch between camera angles on the fly simply by pressing keys 1, 2, and 3 while playing the footage, just like a live broadcast director.",
+        "cats": "Videography, Animation",
+        "tags": "Adobe, Premiere Pro, video editing, multicam, post-production"
+      }
+    },
+    {
+      "id": "b1",
+      "tr": {
+        "title": "n8n ile İş Akışı Otomasyonu: Tekrarlayan İşleri Sıfırlamak",
+        "body": "Günlük yazılım ve içerik süreçlerinde sürekli tekrar eden veri aktarımları ciddi zaman kaybettirir. Açık kaynaklı ve düğüm (node) tabanlı bir otomasyon aracı olan n8n, farklı API’leri ve yerel yapay zeka modellerini birbirine bağlamayı çok kolaylaştırıyor. Örneğin; web sitenizdeki iletişim formuna düşen bir mesajı otomatik olarak veritabanına kaydedip, aynı anda ekip yönetim aracınızda (Basecamp veya Telegram) bildirim oluşturacak bir sistemi kod yazmadan dakikalar içinde kurabilirsiniz.",
+        "cats": "Yazılım, Otomasyon",
+        "tags": "n8n, otomasyon, yapay zeka, iş akışı, verimlilik"
+      },
+      "en": {
+        "title": "Workflow Automation with n8n: Eliminating Repetitive Tasks",
+        "body": "Repetitive data transfers in daily software and content workflows cause significant time loss. As an open-source, node-based automation tool, n8n makes it easy to connect different APIs and local AI models. For example, you can build a system in minutes without writing code that automatically saves a message from your website’s contact form to a database while simultaneously triggering a notification in your team management tool (like Basecamp or Telegram).",
+        "cats": "Software, Automation",
+        "tags": "n8n, automation, AI, workflow, productivity"
+      }
+    },
+    {
+      "id": "b2",
+      "tr": {
+        "title": "WordPress ve Polylang ile Çift Dilli (TR/EN) Site Kurulumunda Püf Noktalar",
+        "body": "Uluslararası kullanıcılara hitap eden bir web sitesi kurarken en kritik adım dil mimarisini doğru kurgulamak. WordPress üzerinde Polylang eklentisi kullanırken sadece sayfaları kopyalamak yetmez; menülerin, kategori yapılarının ve URL uzantılarının (/tr/ ve /en/) her iki dil için ayrı ayrı eşleştirilmesi gerekir. Ayrıca dil değiştirici (language switcher) butonunu üst menüde kullanıcının ilk bakışta görebileceği sade bir bayrak veya kısaltma olarak konumlandırmak kullanıcı deneyimini (UX) doğrudan iyileştirir.",
+        "cats": "Web Geliştirme, İçerik Yönetim Sistemleri",
+        "tags": "WordPress, Polylang, çok dilli web, SEO, UI/UX"
+      },
+      "en": {
+        "title": "Tips for Building a Bilingual (TR/EN) Website with WordPress and Polylang",
+        "body": "When building a website for international users, structuring the language architecture properly is critical. Using the Polylang plugin on WordPress requires more than just duplicating pages; menus, category structures, and URL slugs (/tr/ and /en/) must be mapped individually for both languages. Additionally, placing a clean language switcher in the top navigation bar where users can spot it immediately directly improves the user experience (UX).",
+        "cats": "Web Development, Content Management Systems",
+        "tags": "WordPress, Polylang, multilingual web, SEO, UI/UX"
+      }
+    }
+  ]
+}
