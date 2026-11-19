@@ -154,13 +154,13 @@
       "tr": {
         "title": "Adobe Premiere Pro’da Multicam (Çoklu Kamera) Kurgu Teknikleri",
         "body": "Birden fazla kamerayla çekilen sahneleri tek bir zaman çizelgesinde (timeline) senkronize etmek, kurgu hızını ikiye katlar. Premiere Pro’da klipleri seçip “Create Multi-Camera Source Sequence” dedikten sonra ses dalgalarına (Audio) göre otomatik eşleştirme yapabilirsiniz. Program monitörünü “Multi-Camera” moduna aldığınızda, videoyu izlerken sadece klavyedeki 1, 2, 3 tuşlarına basarak canlı yayın yönetmeni gibi kamera açıları arasında anlık geçiş yapabilirsiniz.",
-        "cats": "Videografi, Animasyon",
+        "cats": "Videografi",
         "tags": "Adobe, Premiere Pro, video kurgu, multicam, post-prodüksiyon"
       },
       "en": {
         "title": "Multicam Editing Techniques in Adobe Premiere Pro",
         "body": "Synchronizing scenes shot with multiple cameras on a single timeline doubles your editing speed. In Premiere Pro, after selecting clips and clicking “Create Multi-Camera Source Sequence,” you can automatically sync them via audio waveforms. By switching the Program Monitor to “Multi-Camera” mode, you can switch between camera angles on the fly simply by pressing keys 1, 2, and 3 while playing the footage, just like a live broadcast director.",
-        "cats": "Videography, Animation",
+        "cats": "Videography",
         "tags": "Adobe, Premiere Pro, video editing, multicam, post-production"
       }
     },
@@ -169,13 +169,13 @@
       "tr": {
         "title": "n8n ile İş Akışı Otomasyonu: Tekrarlayan İşleri Sıfırlamak",
         "body": "Günlük yazılım ve içerik süreçlerinde sürekli tekrar eden veri aktarımları ciddi zaman kaybettirir. Açık kaynaklı ve düğüm (node) tabanlı bir otomasyon aracı olan n8n, farklı API’leri ve yerel yapay zeka modellerini birbirine bağlamayı çok kolaylaştırıyor. Örneğin; web sitenizdeki iletişim formuna düşen bir mesajı otomatik olarak veritabanına kaydedip, aynı anda ekip yönetim aracınızda (Basecamp veya Telegram) bildirim oluşturacak bir sistemi kod yazmadan dakikalar içinde kurabilirsiniz.",
-        "cats": "Yazılım, Otomasyon",
+        "cats": "Otomasyon",
         "tags": "n8n, otomasyon, yapay zeka, iş akışı, verimlilik"
       },
       "en": {
         "title": "Workflow Automation with n8n: Eliminating Repetitive Tasks",
         "body": "Repetitive data transfers in daily software and content workflows cause significant time loss. As an open-source, node-based automation tool, n8n makes it easy to connect different APIs and local AI models. For example, you can build a system in minutes without writing code that automatically saves a message from your website’s contact form to a database while simultaneously triggering a notification in your team management tool (like Basecamp or Telegram).",
-        "cats": "Software, Automation",
+        "cats": "Automation",
         "tags": "n8n, automation, AI, workflow, productivity"
       }
     },
@@ -184,13 +184,13 @@
       "tr": {
         "title": "WordPress ve Polylang ile Çift Dilli (TR/EN) Site Kurulumunda Püf Noktalar",
         "body": "Uluslararası kullanıcılara hitap eden bir web sitesi kurarken en kritik adım dil mimarisini doğru kurgulamak. WordPress üzerinde Polylang eklentisi kullanırken sadece sayfaları kopyalamak yetmez; menülerin, kategori yapılarının ve URL uzantılarının (/tr/ ve /en/) her iki dil için ayrı ayrı eşleştirilmesi gerekir. Ayrıca dil değiştirici (language switcher) butonunu üst menüde kullanıcının ilk bakışta görebileceği sade bir bayrak veya kısaltma olarak konumlandırmak kullanıcı deneyimini (UX) doğrudan iyileştirir.",
-        "cats": "Web Geliştirme, İçerik Yönetim Sistemleri",
+        "cats": "Web Geliştirme",
         "tags": "WordPress, Polylang, çok dilli web, SEO, UI/UX"
       },
       "en": {
         "title": "Tips for Building a Bilingual (TR/EN) Website with WordPress and Polylang",
         "body": "When building a website for international users, structuring the language architecture properly is critical. Using the Polylang plugin on WordPress requires more than just duplicating pages; menus, category structures, and URL slugs (/tr/ and /en/) must be mapped individually for both languages. Additionally, placing a clean language switcher in the top navigation bar where users can spot it immediately directly improves the user experience (UX).",
-        "cats": "Web Development, Content Management Systems",
+        "cats": "Web Development",
         "tags": "WordPress, Polylang, multilingual web, SEO, UI/UX"
       }
     }
