@@ -28,13 +28,13 @@ var c=document.createElement('canvas');c.className='cloak';host.prepend(c);
 var x=c.getContext('2d'),W,H,P=[],S,R,m={x:0,y:0},e={x:0,y:0},inside=false,drift=true,vis=true,run=false,
 rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
 if(rm)drift=false;
-var SC=1,AL=.8;function build(){var d=Math.min(devicePixelRatio||1,2);W=host.clientWidth;H=host.clientHeight;c.width=Math.round(W*d);c.height=Math.round(H*d);x.setTransform(c.width/W,0,0,c.height/H,0,0);
-var md=Math.min(W,H),ph=W<700;S=Math.max(ph?30:24,md/22);R=.34*Math.max(md,420);SC=S<32?.8:1;AL=ph?.62:.8;
+var SC=1,AL=.8,AX=.32,AY=.28;function build(){var d=Math.min(devicePixelRatio||1,2);W=host.clientWidth;H=host.clientHeight;c.width=Math.round(W*d);c.height=Math.round(H*d);x.setTransform(c.width/W,0,0,c.height/H,0,0);
+var md=Math.min(W,H),ph=W<700;S=Math.max(ph?30:24,md/22);R=ph?Math.max(.5*W,170):.34*Math.max(md,420);SC=ph?.95:(S<32?.8:1);AL=.8;AY=ph?.4:.28;AX=ph?.36:.32;
 var cols=Math.ceil(W/S)+1,rows=Math.ceil(H/S)+1,ox=(W-(cols-1)*S)/2,oy=(H-(rows-1)*S)/2;P=[];
 for(var r=0;r<rows;r++)for(var q=0;q<cols;q++){var h=Math.abs(Math.sin(q*12.9898+r*78.233)*43758.5453)%1,hx=ox+q*S,hy=oy+r*S;P.push({hx:hx,hy:hy,x:hx,y:hy,vx:0,vy:0,r:(1+h*1.6)*SC})}
 m.x=e.x=W/2;m.y=e.y=H/2;if(rm)tick(0)}
 function tick(t){if(!vis){run=false;return}
-if(drift){var k=t*.00055;m.x=W/2+Math.sin(k*1.3+.4)*W*.32;m.y=H/2+Math.sin(k*1.9+1.57)*H*.28}
+if(drift){var k=t*.00055;m.x=W/2+Math.sin(k*1.3+.4)*W*AX;m.y=H/2+Math.sin(k*1.9+1.57)*H*AY}
 e.x+=(m.x-e.x)*.16;e.y+=(m.y-e.y)*.16;x.clearRect(0,0,W,H);var on=drift||inside;
 for(var i=0;i<P.length;i++){var p=P[i];
 if(on){var dx=p.x-e.x,dy=p.y-e.y,d=Math.hypot(dx,dy);if(d<R){var n=1-d/R,f=n*n*3.4;if(d>.0001){p.vx+=dx/d*f;p.vy+=dy/d*f}else p.vx+=f}}
